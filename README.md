@@ -57,7 +57,6 @@ python main.py
 ```
   
 
-Part of the code is based on the following repo: https://github.com/YisenWang/MART
 
 Contact: Qizhou Wang (csqzwang@comp.hkbu.edu.hk).
 
