@@ -50,8 +50,8 @@ parser.add_argument('--log-interval', type=int, default=100, metavar='N',
                     help='how many batches to wait before logging training status')
 parser.add_argument('--model', default='resnet',
                     help='directory of model for saving checkpoint')
-parser.add_argument('--method', default='mart',
-                    help='mart mail')
+parser.add_argument('--method', default='trades_mail',
+                    help='mart_mail')
 parser.add_argument('--save-freq', '-s', default=1, type=int, metavar='N',
                     help='save frequency')
 
