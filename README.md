@@ -16,7 +16,7 @@ To be presented at [NeurIPS 2021](https://nips.cc/Conferences/2021/).
 
 If you find this code useful in your research then please cite
 
-```bash
+```
 
 @inproceedings{wang2021probabilistic,
 title={Probabilistic Margins for Instance Reweighting in Adversarial Training,
