@@ -58,7 +58,7 @@ python train.py
   
 
 
-Contact: Qizhou Wang (csqzwang@comp.hkbu.edu.hk) Feng Liu (fengliu.ml@gmail.com).
+Contact: Qizhou Wang (csqzwang@comp.hkbu.edu.hk); Feng Liu (fengliu.ml@gmail.com).
 
   
 
