@@ -52,13 +52,13 @@ All code was developed and tested on a single machine equiped with a NVIDIA GTX3
 
 ```bash
 
-python main.py
+python train.py
 
 ```
   
 
 
-Contact: Qizhou Wang (csqzwang@comp.hkbu.edu.hk).
+Contact: Qizhou Wang (csqzwang@comp.hkbu.edu.hk) Feng Liu (feng.liu@uts.edu.au).
 
   
 
