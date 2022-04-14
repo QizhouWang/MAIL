@@ -56,10 +56,11 @@ python train.py --method mail_at --bias -0.5 --slope 10
 
 ```
 
-'''bash 
+```bash 
 
 python train.py --method mail_trades --bias 0  --slope 2
-'''
+
+```
 
 
 Contact: Qizhou Wang (csqzwang@comp.hkbu.edu.hk); Feng Liu (fengliu.ml@gmail.com).
