@@ -183,8 +183,7 @@ def eval_adv_test_whitebox(model, device, test_loader):
         # pgd attack
         X, y = Variable(data, requires_grad=True), Variable(target)
         err_na, err_20 = _pgd_whitebox(model, X, y)
-        # err_na, err_100 = _pgd_whitebox(model, X, y, num_steps = 100)
-        err_100 = 0
+        err_na, err_100 = _pgd_whitebox(model, X, y, num_steps = 100)
         _, err_cw = _pgd_whitebox(model, X, y, loss_fn='cw')
         
         na_err_total += err_na
