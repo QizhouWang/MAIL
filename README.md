@@ -52,10 +52,14 @@ All code was developed and tested on a single machine equiped with a NVIDIA GTX3
 
 ```bash
 
-python train.py
+python train.py --method mail_at --bias -0.5 --slope 10
 
 ```
-  
+
+'''bash 
+
+python train.py --method mail_trades --bias 0  --slope 2
+'''
 
 
 Contact: Qizhou Wang (csqzwang@comp.hkbu.edu.hk); Feng Liu (fengliu.ml@gmail.com).
