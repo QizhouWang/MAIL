@@ -39,7 +39,7 @@ def mail_loss(model,
         for _ in range(perturb_steps):
             x_adv.requires_grad_()
             with torch.enable_grad():
-                if method != 'trades':
+                if 'trades' not in method:
                     loss_ce = F.cross_entropy(model(x_adv), y)
                 else:
                     loss_ce = criterion_kl(F.log_softmax(model(x_adv), dim=1),
