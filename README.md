@@ -19,7 +19,7 @@ If you find this code useful in your research then please cite
 ```
 
 @inproceedings{wang2021probabilistic,
-title={Probabilistic Margins for Instance Reweighting in Adversarial Training,
+title={Probabilistic Margins for Instance Reweighting in Adversarial Training},
 author={Qizhou Wang and Feng Liu and Bo Han and Tongliang Liu and Chen Gong and Gang Niu and Mingyuan Zhou and Masashi Sugiyama},
 booktitle={NeurIPS},
 year={2021}
